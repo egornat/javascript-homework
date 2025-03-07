@@ -162,3 +162,50 @@ console.log("2 *", a, " = ", 2 * a);
 
 //4. Print Even Numbers
 //Use a for loop to print even numbers between 1 and 10.
+
+for (a = 1; a <= 10; a++) {  
+    if (a % 2 == 0) {  
+        console.log(a);
+    }
+}
+
+//5. **Factorial Calculation**
+//Write a `for` loop to calculate the factorial of a small number (e.g., 4) and print the result.
+
+let fact = 1;
+for(a = 1; a <= 4; a++) {
+    fact *= a;
+}
+console.log(fact);
+
+//### Tasks Using Nested Loops
+//**3x3 Multiplication Table**
+//Use nested loops to print a multiplication table for numbers 1 to 3.
+
+for (let a = 1; a <= 5; a++) { 
+    for (let b = 1; b <= 5; b++) { 
+        process.stdout.write((a * b) + '\t'); 
+    }
+    console.log(); // Move to the next line after each row
+}
+
+//2. **Rectangle of Stars**
+//Use nested loops to print a rectangle made of `*` characters with 3 rows and 4 columns
+
+for (let a = 1; a <= 3; a++) { 
+    let rect = ''; 
+    for (b = 1; b <= 4; b++) { 
+        rect += '*'; 
+    }
+    console.log(rect); 
+}
+
+//3. **Number Triangle**
+//Print a triangle where the first row is `1`, the second row is `1 2`, and the third row is `1 2 3`.
+
+for (a = 1; a <= 3; a++) { // Outer loop for rows
+    for (b = 1; b <= a; b++) { // Inner loop for numbers in each row
+        process.stdout.write(b + ' '); // Print the number with a space
+    }
+    console.log(); // Move to the next line after each row
+}
