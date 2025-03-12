@@ -8,7 +8,6 @@
 // - **subtract(x, y):** returns the difference of two numbers.
 // - **multiply(x, y):** returns the product of two numbers.
 // - **divide(x, y):** returns the result of division (consider division by zero).
-
 class MathOperations {
     add(x, y) {
         return x + y;
@@ -27,7 +26,6 @@ class MathOperations {
     }
 }
 const calculator = new MathOperations();
-
 console.log(calculator.add(10, 5)); 
 console.log(calculator.subtract(10, 5)); 
 console.log(calculator.multiply(10, 5)); 
