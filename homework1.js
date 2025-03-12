@@ -5,8 +5,8 @@
 let a = 7;
 let b = 8;
 let sum = a + b;
-
 console.log("the sum is", sum);
+
 //2. Multiplication Function
 //  Write a function that takes two numbers, multiplies them, and returns the result.
 
@@ -40,12 +40,13 @@ console.log("Square root of", a, "is", root);
 //5. Even Number Check
 //Write a function that checks if a number is even (use the modulo operator) and returns true or false.
 
-function EvenNum(number) {
-    return number % 2 === 0
+function EvenNum(a, b) {
+    return (a + b) % 2  
 };
 a = 22;
 b = a + 1;
-console.log("Is the sum even?:", EvenNum(a + b));
+
+console.log("Is the sum even?:", EvenNum(a, b));
 
 //### 2. Tasks Using if and switch
 //1. Positive Number Check   
