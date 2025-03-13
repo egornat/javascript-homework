@@ -1,9 +1,6 @@
 // ### Task 1: MathOperations Class
-
 // **Description:**
-
 // Create a class `MathOperations` with the following methods:
-
 // - **add(x, y):** returns the sum of two numbers.
 // - **subtract(x, y):** returns the difference of two numbers.
 // - **multiply(x, y):** returns the product of two numbers.
